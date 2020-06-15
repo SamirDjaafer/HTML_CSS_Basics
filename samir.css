@@ -1,15 +1,17 @@
 body{
-    width: 90%;
+    width: 100%;
     margin: auto;
     background-color: ghostwhite;
     margin-top: 25px;
+
 }
 
 .top-div{
     width: 100%;
+    margin: auto;
 }
 
-.top-div h1, .top-div h2 {
+h1, h2 {
     text-align: center;
 }
 
@@ -26,4 +28,22 @@ body{
     margin-right: auto;
     border-radius: 50%;
     border: black 2px solid;
+}
+
+.technologies-flex {
+    padding: 50px;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.technologies-flex ul{
+    list-style: none;
+    padding: none;
+}
+
+.technologies-flex ul li{
+    padding: 5px;
 }
