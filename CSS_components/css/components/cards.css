@@ -1,0 +1,107 @@
+.gradient-card {
+    /* Card size */
+    width: 480px;
+    height: 160px;
+    /* Card gradient */
+    background: #f12711; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top right, #f12711, #f5af19); 
+    background: linear-gradient(to top, #f12711, #f5af19);
+    /* Card styling */
+    padding: 15px;
+    margin: 15px;
+    box-shadow: 1.5px 4.5px black;
+    border-radius: 15px;
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-card {
+    /* Card size */
+    height: 250px;
+    width: 250px;
+    /* Background image */
+    background-image: linear-gradient(to top right, rgba(160, 9, 9, 0.8), rgba(40, 4, 245, 0.1)),
+    url('https://images.pexels.com/photos/358042/pexels-photo-358042.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-size: cover;
+    /* Card styling */
+    padding: 0;
+    margin: 15px;
+    box-shadow: 1.5px 4.5px black;
+    border-radius: 25px;
+    font-size: 1.8rem;
+    color: rgb(233, 241, 216);
+    /* Flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.blog-card {
+    /* Card size */
+    width: 100%;
+    height: 100%;
+     /* Card styling */
+     background-color: lightcoral;
+     /* Flexbox */
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+.blog-text{
+    padding: 0px 35px;
+}
+
+/* airbnb card */
+.airbnb-card {
+    height: 350px;
+    width: 500px;
+    /* Card styling */
+    background-color: lightcyan;
+    padding: 0px;
+    margin: 0px;
+    border-radius: 30px;
+    /* Flexbox */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.airbnb-card img{
+    width: 100%;
+    height: 85%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.airbnb-text{
+    width: 100%;
+    height: 15%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFF;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.airbnb-text h2{
+    padding: 0;
+    margin: 0;
+    height: 50%;
+
+}
+
+.airbnb-text p{
+    padding: 0;
+    margin: 0;
+    height: 50%;
+    
+}

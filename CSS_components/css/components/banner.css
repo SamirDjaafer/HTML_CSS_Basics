@@ -1,0 +1,16 @@
+.banner {
+    background-image: linear-gradient(to right, rgba(245, 225, 225, 0.2), rgba(223, 143, 143, 0.4)),
+    url('https://images.pexels.com/photos/1542495/pexels-photo-1542495.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    height: 500px;
+    margin: 0;
+    /* Flexbox initiation */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.banner-contents {
+    padding: 15px;
+    margin-left: 15px;
+}

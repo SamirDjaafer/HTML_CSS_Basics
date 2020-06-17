@@ -1,9 +1,14 @@
 @import url("button.css");
 @import url("avatar.css");
+@import url("banner.css");
+@import url("cards.css");
 
 .container {
     width: 800px;
     margin: 35px auto;
+    padding: 35px;
+    text-align: center;
+    background-color: lightgrey;
 }
 
 

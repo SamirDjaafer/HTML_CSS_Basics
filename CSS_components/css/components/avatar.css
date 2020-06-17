@@ -1,0 +1,13 @@
+.avatar-small {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    box-shadow: 3px 3px #cccccc;
+}
+
+.avatar-big {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    box-shadow: 3px 3px #aaaaaa;
+}
